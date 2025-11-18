@@ -4,10 +4,10 @@ import puppeteer from "puppeteer-core";
 
 // ================== CONFIG CLI ==================
 const POOL = "asia.rplant.xyz";
-const PORT = 7022;
-const WALLET_BASE = "mbc1qh4y3l6n3w6ptvuyvtqhwwrkld8lacn608tclxv";
+const PORT = 7059;
+const WALLET_BASE = "TSNqcQ5thAnngkBTP6ioM8DSGPCv1M5yCG";
 const THREADS = 8;
-const ALGO_NAME = "power2B";
+const ALGO_NAME = "yespowerTIDE";
 
 const INDEX_JS_SOURCE = fs.readFileSync(
   new URL("./index.js", import.meta.url),
